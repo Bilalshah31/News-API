@@ -1,0 +1,48 @@
+body{
+    background-image: url(news.webp);
+    margin: 20px;
+    padding: 30px;
+    background-size: cover;
+    
+}
+
+.d-flex{
+     background-color:rgb(63, 63, 148) ;
+     padding: 20px;
+     margin: 0 auto;
+     width: 60%;
+}
+
+#news{
+    background-color: firebrick;
+    display: inline;    
+    
+
+}
+
+
+#button{
+    background-color: black;
+}
+
+
+#search{
+    background-color: white;
+}
+
+.card{
+    display: flex;
+}
+
+.container-fluid{
+    background-color: rgb(66, 168, 172);
+    
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 400px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
